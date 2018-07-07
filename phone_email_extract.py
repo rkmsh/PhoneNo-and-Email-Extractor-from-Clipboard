@@ -11,6 +11,7 @@ print("|  | ||_|| ||_- |_|_ |\||_| |__|_|_ || |__/\ |_ |  |_|_ |__  |_ |_||")
 print
 print
 
+# create phone no. regex 
 phoneRegex = re.compile(r'''(
     (\d{3}|\(\d{3}\))?                   # area code
     (\s|-|\.)?                           # separator
